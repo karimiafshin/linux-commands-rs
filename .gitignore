@@ -1,9 +1,10 @@
 # Ignore Cargo build artifacts
 /target/
+/**/target/
 **/*.rs.bk
 
 # Ignore Cargo lock file (if this is a library, you might want to commit it)
-Cargo.lock
+02_echor/Cargo.lock
 
 # Ignore IDE-specific files
 .idea/
